@@ -1,0 +1,119 @@
+/* 
+    Property font di css :
+    1. font-family -> mengatur jenis font yang akan digunakan.
+    2. font-size -> mengatur ukuran font.
+    3. font-weight -> mengatur ketebalan font.
+    4. font-variant -> mengubah font menjadi small-caps.
+    5. font-style -> mengubah font menjadi bercetak miring.
+    6. line-height -> mengatur jarak spasi antar baris.
+
+    Value font-family :
+    1. nama font -> terletak diawal. cth"nya: arial, poppins, times new roman, dll.
+    2. generic family -> terletak diakhir. cth"nya: sans-serif, serif.
+    cth strukturnya :
+    h1{
+        font-family: arial, verdina, sans-serif;
+    }
+    p{
+        font-family: "Times New Roman, serif;
+    }
+    *note : arial, verdana, dan times new roman adalah nama font dan font yang akan digunakan adlh font pertama, yg kedua dipakai bila font pertama tdk ada di komputer. Serif dan sans-serif adlh generic family nya.
+    font css shortcut : 
+    body{
+        font: italic normal bold 16px/18px helvetica,arial, sans-serif;
+    }
+    urutannya ialah : 
+    1. italic = font-style
+    2. normal = font-variant
+    3. bold = font-weight
+    4. 16px = font-size
+    5. 18px = line-height
+    6. helvetica,arial, sans-serif = font-family
+
+    Value font-size :
+    1. px
+    2. % 
+    3. em
+
+    Value font-weight :
+    1. lighter -> hampir sama dengan normal
+    2. normal -> mengubah teks h1 dan yg lain menjadi tidak bold
+    3. 100-900 -> mempertebal teks sesuai ketertarikan pengguna
+    4. bold -> mengubah teks menjadi bold
+    5. bolder -> hampir sama dengan bolder
+
+    Value font-variant :
+    1. normal -> tidak ada perubahan
+    2. small-caps -> membuat teks huruf kapital dan huruf pertama lebih besar.
+
+    value font-style :
+    1. normal ->
+    2. italic -> membuat teks menjadi italic sesuai dengan font yang ada di komputer.
+    3. oblique -> membuat teks menjadi italic tanpa adanya font di komputer/dipaksa italic.
+
+    value line-height :
+    1. normal
+    2. px
+    3. em
+*/
+
+h1.font-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.font-size {
+    font-size: 50px;
+}
+
+h1.font-weight {
+    font-weight: normal;
+}
+
+h1.font-weight-bold {
+    font-weight: bold;
+}
+
+h1.font-weight-bolder {
+    font-weight: bolder;
+}
+
+h1.font-weight-lighter {
+    font-weight: lighter;
+}
+
+h1.font-weight-px {
+    font-weight: 100;
+}
+
+h1.font-variant {
+    font-variant: small-caps;
+}
+
+h1.font-style-normal {
+    font-style: normal;
+}
+
+h1.font-style-italic {
+    font-style: italic;
+}
+
+h1.font-style-oblique {
+    font-style: oblique;
+}
+
+h1.line-height-normal {
+    line-height: normal;
+}
+
+h1.line-height-px {
+    line-height: 100px;
+}
+
+h1.line-height-em {
+    line-height: 1em;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+}

@@ -1,0 +1,15 @@
+/* 
+    Inheritance adalah sebuah elemen mewarisi beberapa nilai dari properti yang dimiliki oleh elemen parrent-nya.
+    Property" yang diwariskan : 
+    color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space.
+    *note: tag a tidak mewarisi nilai dri color.
+*/
+
+body {
+    font-family: poppins;
+    color: darkgray;
+}
+
+a {
+    color: inherit;
+}

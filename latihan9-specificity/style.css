@@ -1,0 +1,41 @@
+/* 
+    setiap deklarasi css (selector) memiliki berat yg berbeda. Berat tsb menentukan seberapa spesifik sebuah elemen dpt dipilih selector.
+
+    menghitung nilai specificity : 
+    inline  id  class   element
+    0       0     0        0     -> angka bertambah tergantung brp banyak atasnya
+*/
+
+/* dalam kondisi ini yang terkahir akan siambil */
+p {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+/* dalam hal ini id yang akan diambil karna id lebih besar dari tag p yaitu id=100 dan h6=1 */
+#h {
+    color: red;
+}
+
+/* #h= 0 1 0 0*/
+
+h6 {
+    color: green;
+}
+
+/* h6=0 0 0 1 */
+
+ul#sarapan li {
+    color: green;
+}
+
+/* ul#sarapan li = 0 1 0 2 */
+
+ul#sarapan li.favorit {
+    color: red;
+}
+
+/* ul#sarapan li.favorit = 0 1 1 2 */

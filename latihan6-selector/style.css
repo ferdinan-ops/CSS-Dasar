@@ -1,0 +1,56 @@
+/* 
+    BELAJAR SELECTOR PADA CSS 
+    Selector terdiri atas : 
+    1. elemen HTML -> p,h1,a,body,dll. cth : h1{ text-align: center; }.
+    2. id -> nama/value id sesuai user tanpa spasi dan menggunakan pagar diawal (#) lalu value id-nya di file css. cth: h1#header-text{ text-align: center; }.
+    3. class -> nama/value class sesuai user tanpa spasi dan menggunakan titik diawal (.) lalu value class-nya di file css. cth: h1.header-text{ text-align: center; }.
+    4. complex selector -> kondisi dimana selector sangat banyak
+    contoh kasus diatas:  <h1 class="header-text" id="header-text">Hello World</h1>
+
+    penjelasan selector jenis id : 
+    1. sebuah elemen html hanya boleh memiliki 1 id.
+    2. setiap halaman hanya boleh meimiliki 1 elemen dengan id tsb.
+    3. dapat digunakan sebagai penanda halaman utk link.
+    4. digunakan untuk javascript.
+    5. sebaiknya tidak digunakan utk css (lebih baik menggunakan class).
+*/
+
+/* contoh penggunaan selector elemen HTML */
+body {
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* contoh penggunaan selector elemen HTML dgn metode grouping*/
+/* koma (,) digunakan bila ingin menggunakan property yg berbeda tp value yg sama */
+h1,
+h2 {
+    color: green;
+}
+
+/* maksud dari perintah css dibawah ialah css pilih ul lalu pilih li yg ada didlm ul dan pilih a yg ada didalam li */
+/* spasi dalam css diartikan "di dalam" */
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: lightblue;
+}
+
+/* contoh penggunaan selector id */
+#p1 {
+    color: red;
+}
+
+/* contoh penggunaan selector class */
+.p2 {
+    color: saddlebrown;
+}
+
+.cetak-tebal {
+    font-weight: bold;
+}

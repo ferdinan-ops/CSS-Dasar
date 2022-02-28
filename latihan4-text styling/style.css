@@ -1,0 +1,100 @@
+/*
+    BELAJAR TEXT STYLING PADA CSS
+
+    Property pada text :
+    1. color -> memberi warna pada tulisan.
+    2. text-align -> mengatur format paaragraf sama seperti di word untuk buat teks di tengah pinggir kiri ata rata dengan margin.
+    3. text-indent -> memberi identitas pada paragraf/teks atau tab spasi di awal kalimat.
+    4. text-decoration -> mengatur dekorasi pada teks. sperti membuat garis pada teks.
+    5. text-transform -> mengubah jenis huruf besar, kecil/kapital.
+    6. letter-spacing -> mengatur spasi antar huruf.
+    7. word-spacing -> mengatur spasi antar kata.
+
+    Value color :
+    1. nama warna dlm bhs inggris.
+    2. rgb
+    3. hex
+
+    Value text-align :
+    1. left -> membuat tulisan/paragraf rata ke sebelah kiri.
+    2. right -> membuat tulisan/paragraf rata ke sebelah kanan.
+    3. center -> membuat tulisan/paragraf rata ke sebelah tengah.
+    4. justify -> membuat tulisan/paragraf rata ke sebelah kanan dan kiri.
+
+    value text-indent : 
+    1. px
+    2. %
+
+    Value text-decoration : 
+    1. none -> menghapus garis yang terdapat pada teks/kalimat.
+    2. underline -> membuat teks bergaris bawah.
+    3. overline -> membuat teks bergaris atas.
+    4. line-through -> membuat teks bergaris ditengah.
+
+    Value text-transform : 
+    1. none -> membuat tampilan teks seperti default.
+    2. lowercase -> membuat semua huruf teks menjadi huruf kecil.
+    3. uppercase -> membuat semua huruf teks menjadi huruf besar/kapital.
+    4. capitalize -> membuat semua huruf depan setiap kalimat menjadi huruf besar/kapital.
+
+    Value letter-spacing :
+    1. normal -> default.
+    2. px
+
+    Value word-spacing :
+    1. normal -> default.
+    2. px
+*/
+
+h1 {
+    color: lightblue;
+}
+
+p.text-align {
+    text-align: justify;
+}
+
+p.text-indent {
+    text-indent: 50px;
+}
+
+a.text-decoration-none {
+    text-decoration: none;
+}
+
+p.text-decoration-underline {
+    text-decoration: underline;
+}
+
+p.text-decoration-overline {
+    text-decoration: overline;
+
+}
+
+p.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+p.text-transform-none {
+    text-transform: none;
+}
+
+p.text-transform-lowercase {
+    text-transform: lowercase;
+}
+
+p.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+p.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+p.letter-spacing {
+    letter-spacing: 5px;
+}
+
+p.word-spacing {
+    word-spacing: 50px;
+}

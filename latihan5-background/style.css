@@ -1,0 +1,45 @@
+/* 
+    BELAJAR BACKGROUND PADA CSS
+
+    Property yang ada pada background :
+    1. background-color -> mengatur warna pada background.
+    2. background-image -> mengatur gambar yg akan digunakan pd background.
+    3. background-position -> mengatur posisi gambar pada background.
+    4. background-repeat -> mengatur jenis pengulangan gambar pada background.
+
+    Value background-repeat : 
+    1. repeat-x -> membuat ukuran gambar full horizontal tapi tidak full vertikal.
+    2. repeat-y -> membuat ukuran gambar full vertikal tapi tidak full horizontal.
+    3. no-repeat -> membuat ukuran gambar sesuai dengan ukuran aslinya
+    4. repeat -> membuat gambar berulang-ulang sampai memenuhi halaman
+
+    Value background-position : 
+    1. top left
+    2. top center
+    3. top right
+    4. center left
+    5. center center
+    6. center right
+    7. bottom right
+    8. bottom left
+    9. bottom center
+    10. bottom right
+    11. x% y% -> maksudnya ialah posisi x dan y nya berapa persen thdp halaman website.
+    12. x-pos y-pos -> maksudnya ialah posisi
+
+    Shorthand Tag background  
+    Struktur:
+    background: color url() position repeat;
+    cth:
+    body{
+        background: white url(gambar/kartun.jpg) top left no-repeat;
+    }
+
+*/
+
+body {
+    background-image: url(gambar/kartun.jpg);
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    background-position: top left;
+}

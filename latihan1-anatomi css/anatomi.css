@@ -1,0 +1,86 @@
+/* 
+    Struktur dan anatomi css :
+    selector { property: value; }
+                or
+    selector {
+        property: value;
+    }
+
+    cth: 
+    h1 { color: blue; } -> artinya seluruh tag h1 fontya akan bewarna biru
+                or
+    h1{
+        color: blue;
+    }
+
+    penjelasan :
+    1. selector -> selector adlh tag-tag html, id, class, bahkan pola seperti h1, input, label, body, select, dll.
+    2. property -> property adlh fitur yang dapat diubah dalam tag seperti width, height, text-decoration, font, dll.
+    3. value -> value adlh nilai dari property yang kalian gunakan. Misalnya: saya ingin mengubah lebar gambar saya gunakan propery width sebesar 500 px.
+                satuan yg bisa digunakan dalam value bermacam-macam sesuai dengan propertynya.
+*/
+body {
+    font-family: poppins, sans-serif;
+    background-color: whitesmoke;
+}
+
+.content {
+    background-color: black;
+    box-sizing: border-box;
+    width: 800px;
+    margin: auto;
+    padding: 20px 40px;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+pre {
+    width: fit-content;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    color: white;
+    margin: auto;
+}
+
+.tengah {
+    text-align: center;
+}
+
+h1 {
+    color: cyan;
+}
+
+p b {
+    color: cyan;
+}
+
+ul li p b {
+    color: white;
+}
+
+.struktur {
+    width: fit-content;
+    margin-left: 220px;
+}
+
+.contoh {
+    width: fit-content;
+    margin-left: 80px;
+}
+
+.selector {
+    color: red;
+}
+
+.value {
+    color: orange;
+}
+
+.krg {
+    color: yellow;
+}
